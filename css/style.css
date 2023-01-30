@@ -71,7 +71,6 @@ ul li {
 }
 
 /* MAIN-JUMBO STYLE */
-
 #jumbo-container {
     width: 100%;
     padding-top: 5%;
@@ -95,6 +94,7 @@ ul li {
     border: 2px solid black;
 }
 
+/* subscription container*/
 #sub-plan {
     display: flex;
     justify-content: center;
@@ -113,6 +113,11 @@ ul li {
     height: 100px;
 }
 
+/* team container */
+
+/* partner container */
+
+/* business container */
 #businessflex {
     display: flex;
     justify-content: center;
@@ -127,3 +132,7 @@ ul li {
     background-color: gray;
     border: 1px dotted black;
 }
+
+/* clients container */
+
+/* closer-container */
