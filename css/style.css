@@ -51,6 +51,10 @@ i {
     color: black;
 }
 
+span {
+    font-size: 12px;
+}
+
 .window {
     /* debug */
     background-color: gray;
@@ -95,7 +99,7 @@ nav {
     padding: 5px 10px;
 }
 
-/* MAIN-JUMBO STYLE */
+/* JUMBO STYLE */
 #jumbo-container {
     width: 100%;
     padding-top: 5.5%;
@@ -134,15 +138,14 @@ nav {
     width: 105%;
 }
 
-/* MAIN STYLE */
+/* MAIN CONTAINER STYLE */
 #main-container {
     margin-top: 4%;
 }
 
-/* subscription container STYLE */
-#sub-columns {
+/* MAIN CONTAINER STYLE - sub-section */
+#subscription-columns {
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     /* debug */
@@ -150,11 +153,10 @@ nav {
 }
 
 .subscription {
-    width: calc(100% / 3 - 2%);
-    margin: 1% 0;
+    width: calc(100% / 3 - 4%);
+    margin: 2% 0;
     /* debug */
     border: 1px solid gray;
-    height: 100px;
 }
 
 #mensile-annuale {
@@ -164,12 +166,11 @@ nav {
 }
 
 #mensile-annuale span {
-    font-size: 12px;
     padding: 0 50px 0 5px;
 }
 
 .sub-title {
-    padding: 5px 0;
+    padding: 3% 0;
     border-bottom: 1px solid gray;
     text-align: center;
     font-size: 12px;
@@ -181,11 +182,67 @@ nav {
     padding-top: 5%;
 }
 
-/* team container STYLE */
+.sub-price-info span {
+    display: block;
+    padding-top: 15px;
+    /* single <span> style in html */
+}
 
-/* partner container STYLE */
+.sub-service-info div {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10%;
+}
 
-/* business container STYLE */
+.sub-service-info span {
+    padding-left: 5px;
+}
+
+.sub-button{
+    padding: 20% 0;
+}
+
+.sub-button a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 2% 4%;
+}
+
+.sub-buy{
+    padding-bottom: 18%;
+}
+
+.sub-buy a {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.sub-column-container hr {
+    width: 30%;
+}
+
+.sub-value-point {
+    margin-top: 12%;
+}
+
+.sub-value-point i {
+    color: rgb(40, 95, 246);
+    padding-right: 2%;
+}
+
+.sub-value-point div {
+    display: flex;
+    align-items: flex-start;
+    margin: 12% 0;
+}
+
+
+/* MAIN CONTAINER STYLE - team-section  */
+
+/* MAIN CONTAINER STYLE - partner-section */
+
+/* MAIN CONTAINER STYLE - business-section */
 #businessflex {
     display: flex;
     justify-content: center;
@@ -201,9 +258,9 @@ nav {
     border: 1px dotted black;
 }
 
-/* usersinfo container STYLE */
+/* MAIN CONTAINER STYLE - userinfo-section */
 
-/* closer-container STYLE */
+/* MAIN CONTAINER STYLE - closer-container */
 #closer-container {
     width: 100%;
     background-color: rgb(185, 207, 229);
@@ -230,7 +287,7 @@ nav {
     border: 1px solid black;
 }
 
-/* question-container STYLE */
+/* MAIN CONTAINER STYLE - question-container */
 .question {
     /* debug */
     height: 100px;
@@ -247,4 +304,3 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-
