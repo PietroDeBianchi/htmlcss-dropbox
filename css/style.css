@@ -19,9 +19,15 @@ body {
     padding: 2% 0;
 }
 
+.column-size {
+    width: 80%;
+    margin: auto;
+}
+
 section {
     /* debug */
     border: 1px solid black;
+    padding: 10px 0;
 }
 
 .window {
@@ -88,8 +94,6 @@ ul li {
 /* MAIN STYLE */
 
 #main-container {
-    width: 85%;
-    margin: auto;
     /* debug */
     border: 2px solid black;
 }
@@ -154,10 +158,6 @@ ul li {
     border: 1px solid black;
 }
 
-#trial-container {
-    width: 85%;
-    margin: auto;
-}
 
 .trial {
     width: 50%;
@@ -165,3 +165,22 @@ ul li {
     height: 100px;
     border: 1px solid black;
 }
+
+/* question-container */
+.question {
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* FOOTER STYLE */
+footer {
+    background-color: rgb(36, 39, 42);
+    padding: 3% 0;
+}
+
+#resource-column {
+    display: flex;
+    justify-content: space-evenly;
+}
+
