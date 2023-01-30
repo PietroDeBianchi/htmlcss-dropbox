@@ -21,7 +21,7 @@ body {
 }
 
 .column-size {
-    width: 70%;
+    width: 65%;
     margin: auto;
 }
 
@@ -98,12 +98,12 @@ nav {
 /* MAIN-JUMBO STYLE */
 #jumbo-container {
     width: 100%;
-    padding-top: 5%;
+    padding-top: 5.5%;
     background-color: rgb(185, 207, 229);
 }
 
 #jumbo-content {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ nav {
 }
 
 /* subscription container STYLE */
-#sub-plan {
+#sub-columns {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -153,9 +153,32 @@ nav {
     width: calc(100% / 3 - 2%);
     margin: 1% 0;
     /* debug */
-    background-color: gray;
-    border: 1px dotted black;
+    border: 1px solid gray;
     height: 100px;
+}
+
+#mensile-annuale {
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+}
+
+#mensile-annuale span {
+    font-size: 12px;
+    padding: 0 50px 0 5px;
+}
+
+.sub-title {
+    padding: 5px 0;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sub-column-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
 }
 
 /* team container STYLE */
