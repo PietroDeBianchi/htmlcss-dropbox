@@ -21,13 +21,21 @@ body {
 }
 
 .column-size {
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
 .blue-button {
     background-color: rgb(40, 95, 246);
     padding: 1% 4%;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 ul {
@@ -99,17 +107,13 @@ nav {
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 75px;
-}
-
 .jumbo-left {
     width: 40%;
-    padding: 4% 3% 0 0;
+    padding-top: 2%;
 }
 
 .jumbo-left div {
-    padding: 8% 0 6% 0;
+    padding: 5% 2% 1% 0;
 }
 
 #anchor {
@@ -123,17 +127,16 @@ h1 {
 
 #jumbo-img {
     position: absolute;
+    top: 12%;
 }
 
 .jumbo-right img {
-    width: 100%;
+    width: 105%;
 }
 
 /* MAIN STYLE */
 #main-container {
     margin-top: 4%;
-    /* debug */
-    border: 2px solid black;
 }
 
 /* subscription container STYLE */
