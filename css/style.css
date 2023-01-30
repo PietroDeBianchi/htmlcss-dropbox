@@ -21,19 +21,17 @@ body {
 }
 
 .column-size {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
 .blue-button {
     background-color: rgb(40, 95, 246);
     padding: 1% 4%;
-    display: flex;
-    align-items: center;
 }
 
-.blue-button a {
-    color: white;
+ul {
+    list-style: none;
 }
 
 a {
@@ -76,13 +74,17 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    list-style-type: none;
 }
 
 .navigator a {
     font-size: 12px;
     color: gray;
     font-weight: 500;
+}
+
+#start {
+    color: white;
+    padding: 5px 10px;
 }
 
 /* MAIN-JUMBO STYLE */
@@ -93,7 +95,7 @@ nav {
 }
 
 #jumbo-content {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -103,15 +105,24 @@ h1 {
 
 .jumbo-left {
     width: 40%;
-    padding: 4% 1% 0 0;
+    padding: 4% 3% 0 0;
 }
 
 .jumbo-left div {
-    padding: 8% 0;
+    padding: 8% 0 6% 0;
+}
+
+#anchor {
+    font-size: 70px;
 }
 
 .jumbo-right {
     width: 60%;
+    position: relative;
+}
+
+#jumbo-img {
+    position: absolute;
 }
 
 .jumbo-right img {
@@ -120,6 +131,7 @@ h1 {
 
 /* MAIN STYLE */
 #main-container {
+    margin-top: 4%;
     /* debug */
     border: 2px solid black;
 }
