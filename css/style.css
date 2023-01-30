@@ -133,6 +133,35 @@ ul li {
     border: 1px dotted black;
 }
 
-/* clients container */
+/* usersinfo container */
 
 /* closer-container */
+#closer-container {
+    width: 100%;
+    background-color: rgb(185, 207, 229);
+}
+
+#clients-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: calc(100% / 3);
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
+}
+
+#trial-container {
+    width: 85%;
+    margin: auto;
+}
+
+.trial {
+    width: 50%;
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
+}
