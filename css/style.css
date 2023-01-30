@@ -11,6 +11,27 @@ body {
     font-family: 'Open Sans', sans-serif;   
 }
 
+.doubleflex {
+    display: flex;
+}
+
+.container {
+    padding: 2% 0;
+}
+
+section {
+    /* debug */
+    border: 1px solid black;
+}
+
+.window {
+    /* debug */
+    background-color: gray;
+    width: 50%;
+    height: 100px;
+    border: 1px dotted black;
+}
+
 /* HEADER STYLE */
 
 header {
@@ -55,7 +76,6 @@ ul li {
     width: 100%;
     padding-top: 5%;
     /* debug */
-    height: 600px;
     background-color: rgb(185, 207, 229);
 }
 
@@ -64,14 +84,13 @@ ul li {
     margin: auto;
     /* debug */
     border: 2px solid black;
-    height: 500px;
 }
 
 /* MAIN STYLE */
 
 #main-container {
     width: 85%;
-    margin: 2% auto;
+    margin: auto;
     /* debug */
     border: 2px solid black;
 }
@@ -81,6 +100,8 @@ ul li {
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
+    /* debug */
+    border: 1px dotted black;
 }
 
 .subscription {
@@ -90,4 +111,19 @@ ul li {
     background-color: gray;
     border: 1px dotted black;
     height: 100px;
+}
+
+#businessflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+    /* debug */
+    height: 100px;
+    background-color: gray;
+    border: 1px dotted black;
 }
