@@ -10,3 +10,61 @@ body {
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;   
 }
+
+/* HEADER STYLE */
+
+header {
+    width: 100%;
+    padding: 1% 0;
+    position: fixed;
+    z-index: 999;
+    /* debug */
+    background-color: gray;
+}
+
+nav {
+    width: 99%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigator {
+    width: 30%;
+    /* debug */
+    background-color: yellow;
+}
+
+.navigator ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* list-style-type: none; */
+}
+
+ul li {
+    /* debug */
+    background-color: gray;
+}
+
+/* MAIN-JUMBO STYLE */
+
+#jumbo-container {
+    width: 100%;
+    padding-top: 5%;
+    /* debug */
+    height: 600px;
+    background-color: lightcoral;
+}
+
+#jumbo-content {
+    width: 90%;
+    margin: auto;
+    /* debug */
+    border: 2px solid black;
+    height: 500px;
+}
+
+/* MAIN STYLE */
