@@ -28,6 +28,13 @@ body {
 .blue-button {
     background-color: rgb(40, 95, 246);
     padding: 1% 4%;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
 }
 
 h1 {
@@ -146,16 +153,12 @@ nav {
 /* MAIN CONTAINER STYLE - sub-section */
 #subscription-columns {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* debug */
-    border: 1px dotted black;
+    justify-content: space-between;
 }
 
 .subscription {
     width: calc(100% / 3 - 4%);
     margin: 2% 0;
-    /* debug */
     border: 1px solid gray;
 }
 
@@ -171,15 +174,16 @@ nav {
 
 .sub-title {
     padding: 3% 0;
-    border-bottom: 1px solid gray;
-    text-align: center;
-    font-size: 12px;
 }
 
 .sub-column-container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding-top: 5%;
+}
+
+.sub-price-info {
+    margin-top: 8%;
 }
 
 .sub-price-info span {
@@ -188,24 +192,29 @@ nav {
     /* single <span> style in html */
 }
 
+.sub-service-info {
+    min-height: 180px;
+    max-height: 250px;
+}
+
 .sub-service-info div {
     display: flex;
     align-items: flex-start;
     padding-top: 10%;
+    
 }
 
 .sub-service-info span {
     padding-left: 5px;
 }
 
-.sub-button{
-    padding: 20% 0;
+.sub-button {
+    padding: 18% 0;
 }
 
 .sub-button a {
     width: 100%;
     display: block;
-    text-align: center;
     padding: 2% 4%;
 }
 
@@ -237,8 +246,42 @@ nav {
     margin: 12% 0;
 }
 
-
 /* MAIN CONTAINER STYLE - team-section  */
+#team-container {
+    border: 1px solid gray;
+}
+
+#team-container .doubleflex {
+    justify-content: space-between;
+}
+
+.team {
+    padding: 3% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team-left {
+    width: 55%;
+}
+
+.team-right {
+    width: 35%;
+    align-items: flex-end;
+}
+
+.team-title {
+    padding: 1% 0;
+}
+
+.team-info span {
+    padding: 3% 0;
+}
+
+.team-button {
+    width: 72%;
+}
 
 /* MAIN CONTAINER STYLE - partner-section */
 
