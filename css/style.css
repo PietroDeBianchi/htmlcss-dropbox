@@ -310,6 +310,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 4%;
 }
 
 .card {
@@ -328,6 +329,16 @@ nav {
 }
 
 /* MAIN CONTAINER STYLE - userinfo-section */
+#usersinfo-container div {
+    width: 70%;
+    margin: 5% 0;
+}
+
+#usersinfo-container a {
+    font-size: 12px;
+    color: blueviolet;
+    text-decoration: underline;
+}
 
 /* MAIN CONTAINER STYLE - closer-container */
 #closer-container {
@@ -343,17 +354,30 @@ nav {
 
 .box {
     width: calc(100% / 3);
-    /* debug */
-    height: 100px;
-    border: 1px solid black;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-box img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+.clients-center {
+    background-color: rgb(245, 245, 245);
 }
 
 
 .trial {
     width: 50%;
-    /* debug */
-    height: 100px;
-    border: 1px solid black;
 }
 
 /* MAIN CONTAINER STYLE - question-container */
