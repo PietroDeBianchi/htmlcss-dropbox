@@ -27,8 +27,6 @@ body {
 
 .blue-button {
     background-color: rgb(40, 95, 246);
-    padding: 1% 4%;
-    text-align: center;
 }
 
 .title {
@@ -215,7 +213,7 @@ nav {
 .sub-button a {
     width: 100%;
     display: block;
-    padding: 2% 4%;
+    padding: 4% 4%;
 }
 
 .sub-buy{
@@ -252,38 +250,59 @@ nav {
 }
 
 #team-container .doubleflex {
+    padding-top: 2%;
     justify-content: space-between;
-}
-
-.team {
-    padding: 3% 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .team-left {
     width: 55%;
+    padding-left: 2%;
+}
+
+.team-info span {
+    display: block;
+    padding: 3.5% 0;
 }
 
 .team-right {
     width: 35%;
-    align-items: flex-end;
-}
-
-.team-title {
-    padding: 1% 0;
-}
-
-.team-info span {
-    padding: 3% 0;
 }
 
 .team-button {
-    width: 72%;
+    width: 55%;
+    text-align: center;
+    line-height: 12px;
+    padding: 3% 0;
 }
 
 /* MAIN CONTAINER STYLE - partner-section */
+#partner-container .doubleflex {
+    justify-content: flex-start;
+}
+
+.partner-left {
+    width: 55%;
+}
+
+.partner-right {
+    width: 35%;
+    padding: 6% 0 6% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.partner-left img {
+    width: 100%;
+}
+
+.gray-button span {
+    color: gray;
+    border: 1px solid gray;
+    padding: 2% 2%;
+    display: inline-block;
+}
 
 /* MAIN CONTAINER STYLE - business-section */
 #businessflex {
