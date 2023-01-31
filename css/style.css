@@ -121,6 +121,10 @@ nav {
     padding-top: 2%;
 }
 
+.jumbo-left a {
+    padding: 2% 2%;
+}
+
 .jumbo-left div {
     padding: 5% 2% 1% 0;
 }
