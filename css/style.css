@@ -21,12 +21,13 @@ body {
 }
 
 .column-size {
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
 .blue-button {
     background-color: rgb(40, 95, 246);
+    text-align: center;
 }
 
 .title {
@@ -217,7 +218,8 @@ nav {
 .sub-button a {
     width: 100%;
     display: block;
-    padding: 4% 4%;
+    padding: 3.5% 3.5%;
+    font-size: 15px;
 }
 
 .sub-buy{
@@ -257,6 +259,10 @@ nav {
     padding-top: 2%;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.team-title {
+    padding: 0.5% 0;
 }
 
 .team-left {
@@ -357,14 +363,15 @@ nav {
 }
 
 .box {
-    width: calc(100% / 3);
-    height: 480px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .partner-box {
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,19 +383,68 @@ nav {
 }
 
 .clients-center {
+    padding: 3% 3%;
     background-color: rgb(245, 245, 245);
+    position: relative;
 }
 
-
-.trial {
+.clients-center img {
+    position: absolute;
     width: 50%;
 }
 
+.client-info {
+    padding-top: 20%;
+}
+
+.client-info hr {
+    width: 40%;
+    margin: 10% 0;
+}
+
+.client-info p {
+    margin-bottom: 10%;
+}
+
+#trial-container {
+    justify-content: space-between;
+}
+
+.trial {
+    width: 40%;
+}
+
+.trial h3 {
+    font-size: 30px;
+
+}
+
+.trial a {
+    background-color: white;
+    color: gray;
+    padding: 2%;
+    display: inline-block;
+}
+
+
+
 /* MAIN CONTAINER STYLE - question-container */
-.question {
-    /* debug */
-    height: 100px;
-    border: 1px solid black;
+.question { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+
+#question-row {
+    margin: 4% 0;
+    border-bottom: 1px solid black;
+}
+
+.question p {
+    padding: 4% 0;
+    color: black;
+    font-weight: 700;
 }
 
 /* FOOTER STYLE */
@@ -397,7 +453,47 @@ footer {
     padding: 3% 0;
 }
 
+#footer-container {
+    padding-top: 2%;
+}
+
 #resource-column {
+    width: 70%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.resource-list {
+
+}
+
+.resource-list h3 {
+    color: white;
+}
+
+.resource-list a {
+    font-size: 12px;
+}
+
+#resuorce-leng {
+    width: 70%;
+    margin: auto;
+}
+
+.leng {
+    width: 20%;
+    margin-top: 6%;
+}
+
+.leng section {
+    padding-top: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.leng i {
+    color: white;
 }
