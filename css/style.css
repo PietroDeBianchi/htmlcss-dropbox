@@ -31,6 +31,10 @@ body {
     padding: 10px 10px;
 }
 
+.gray-button {
+    display: inline-block;
+}
+
 .title {
     text-align: center;
     font-size: 12px;
@@ -102,6 +106,8 @@ nav {
 #start {
     color: white;
     padding: 5px 10px;
+    background-color: rgb(40, 95, 246);
+    text-align: center;
 }
 
 /* JUMBO STYLE */
@@ -130,12 +136,12 @@ nav {
 }
 
 .jumbo-left div {
-    margin-bottom: 8%;
+    margin-bottom: 7.5%;
 }
 
 
 #anchor {
-    padding-top: 2%;
+    padding: 2% 0;
     font-size: 50px;
 }
 
@@ -521,7 +527,7 @@ footer {
 }
 
 .partner-box:hover {
-    transition: box-shadow 0.5s ease;
+    transition: 0.5s ease;
     box-shadow: inset 0 0 0 20px rgba(255, 255, 255, 0.3); 
     /* inset set the shadow inside the <div> -First 0=horizontal offset of the shadow -Second 0=vertical offset of the shadow -Third 0=blur radius of the shadow  -20px=the spread radius of the shadow*/
 }
@@ -538,4 +544,10 @@ footer {
 
 .question:active i {
    rotate: 180deg;
-  }
+}
+
+.hover-gray:hover {
+    transition: 0.3s ease;
+    color: white;
+    background-color: black;
+}
