@@ -28,6 +28,7 @@ body {
 .blue-button {
     background-color: rgb(40, 95, 246);
     text-align: center;
+    padding: 10px 10px;
 }
 
 .title {
@@ -57,16 +58,12 @@ i {
     color: black;
 }
 
-span {
-    font-size: 12px;
+p {
+    font-size: 15px;
 }
 
-.window {
-    /* debug */
-    background-color: gray;
-    width: 50%;
-    height: 100px;
-    border: 1px dotted black;
+span {
+    font-size: 12px;
 }
 
 /* HEADER STYLE */
@@ -79,7 +76,6 @@ header {
 }
 
 nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -88,8 +84,7 @@ nav {
     width: 30%;
 }
 
-.navigator ul {
-    display: flex;
+.nav-list {
     justify-content: space-evenly;
     align-items: center;
 }
@@ -112,40 +107,40 @@ nav {
     background-color: rgb(185, 207, 229);
 }
 
+#text-img-jumbo {
+    position: relative;
+    top: 50px;
+}
+
 #jumbo-content {
     width: 75%;
     margin: 0 auto;
 }
 
 .jumbo-left {
-    width: 40%;
-    padding-top: 2%;
-}
-
-.jumbo-left a {
-    padding: 2% 2%;
+    width: 35%;
 }
 
 .jumbo-left div {
-    padding: 5% 2% 1% 0;
+    margin-bottom: 9%;
 }
 
+
 #anchor {
-    font-size: 70px;
+    padding-top: 2%;
+    font-size: 50px;
 }
 
 .jumbo-right {
     width: 60%;
-    position: relative;
 }
 
 #jumbo-img {
-    position: absolute;
-    top: 12%;
+    position: relative;
 }
 
 .jumbo-right img {
-    width: 105%;
+    width: 110%;
 }
 
 /* MAIN CONTAINER STYLE */
@@ -155,7 +150,6 @@ nav {
 
 /* MAIN CONTAINER STYLE - sub-section */
 #subscription-columns {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -167,7 +161,6 @@ nav {
 
 #mensile-annuale {
     padding: 3% 0;
-    display: flex;
     align-items: center;
 }
 
@@ -319,7 +312,6 @@ nav {
 
 /* MAIN CONTAINER STYLE - business-section */
 #businessflex {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -338,7 +330,6 @@ nav {
 
 .card p {
     margin-top: 5%;
-    font-size: 12px;
 }
 
 /* MAIN CONTAINER STYLE - userinfo-section */
@@ -360,7 +351,6 @@ nav {
 }
 
 #clients-container {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -429,8 +419,6 @@ nav {
     display: inline-block;
 }
 
-
-
 /* MAIN CONTAINER STYLE - question-container */
 .question { 
     display: flex;
@@ -463,12 +451,7 @@ footer {
 #resource-column {
     width: 70%;
     margin: auto;
-    display: flex;
     justify-content: space-between;
-}
-
-.resource-list {
-
 }
 
 .resource-list h3 {
