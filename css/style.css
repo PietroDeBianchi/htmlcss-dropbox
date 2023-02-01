@@ -430,9 +430,14 @@ nav {
 /* MAIN CONTAINER STYLE - question-container */
 .question { 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid black;
+}
+
+.hover-question {
+    display: none;
 }
 
 #question-row {
@@ -525,3 +530,12 @@ footer {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
 }
+
+
+.question:active .hover-question {
+    display: block;
+}
+
+.question:active i {
+   rotate: 180deg;
+  }
