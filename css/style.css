@@ -69,7 +69,6 @@ span {
 /* HEADER STYLE */
 header {
     width: 100%;
-    padding: 1% 0;
     position: fixed;
     z-index: 999;
     background-color: white;
@@ -87,6 +86,11 @@ nav {
 .nav-list {
     justify-content: space-evenly;
     align-items: center;
+}
+
+.nav-hover {
+    padding: 2.4% 0;
+    position: relative;
 }
 
 .navigator a {
@@ -483,4 +487,30 @@ footer {
 
 .leng i {
     color: white;
+}
+
+/* HOVER STYLE */
+  
+.nav-hover::after {
+    content: "";
+    position: absolute; /* this remove the under-line from the document so when it appears it will not change the father size */
+    bottom: 0; /* this set the under-line on the bottom */
+    left: 0; /* this set the width  */
+    right: 0; /* this this set the width */
+    height: 2px;
+    background-color: rgb(40, 95, 246);
+    transform: scaleX(0); /* this set the under-line invisible */
+    transition: transform 0.3s ease;
+}
+
+.nav-hover:hover::after {
+    transform: scaleX(1);
+  }
+  
+#footer-container li:hover {
+    text-decoration: underline;
+}
+
+.partner-box:hover {
+    opacity: 0.5;
 }
